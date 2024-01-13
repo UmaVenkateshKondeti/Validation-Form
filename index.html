@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Form_Validation</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="validation.css">
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+            <h2>Register Here</h2>
+            </div>
+            <form action="thanks.html" class="form" id="form">
+            <div class="field">
+                <label>Username</label>
+                <input type="text" placeholder="xyz" id="uname">
+                <span class="material-symbols-outlined success">check_circle</span>
+                <span class="material-symbols-outlined error">error</span>
+                <small>Error message</small>
+            </div>
+            <div class="field">
+                <label>Email</label>
+                <input type="email" placeholder="xyz@gmail.com" id="email">
+                <span class="material-symbols-outlined success">check_circle</span>
+                <span class="material-symbols-outlined error">error</span>
+                <small>Error message</small>
+            </div>
+            
+            <div class="field">
+                <label>Password</label>
+                <input type="password" placeholder="password" id="password">
+                <span class="material-symbols-outlined success">check_circle</span>
+                <span class="material-symbols-outlined error">error</span>
+                <small>Error message</small>
+            </div>
+            <div class="field">
+                <label>Confirm Password</label>
+                <input type="password" placeholder="confirm password" id="cpassword">
+                <span class="material-symbols-outlined success">check_circle</span>
+                <span class="material-symbols-outlined error">error</span>
+                <small>Error message</small>
+            </div>
+            <div class="field">
+                <input type="checkbox" id="tc" class="terms">
+                <label>I agree terms and conditions</label>
+                <small>Error message</small>
+            </div>
+            <input type="Submit" class="button">
+              <footer>
+                <p>&copy; 2023 Uma Venkatesh. All rights reserved.</p>
+              </footer>
+        </form>
+            </div>
+            <script src="validation.js"></script>
+    </body>
+</html>
